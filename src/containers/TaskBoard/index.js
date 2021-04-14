@@ -30,6 +30,7 @@ const listTask = [
 
 const TaskBoard = () => {
   const [open, setOpen] = useState(false);
+  
   const renderBoard = () => {
     let xhtml = null;
     xhtml = (
